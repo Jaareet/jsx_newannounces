@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Anton';
+    src: url('https://jaareet.es/assets/fonts/jsx_media/Anton-Regular.ttf');
+}
+
+* {
+    font-family: 'Anton';
+    font-weight: normal;
+}
+
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+.container {
+    position: absolute;
+    top: -8%;
+    opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: .7s;
+}
+
+.announceImg {
+    width: 22vw;
+}
+
+.announce-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 1.3vw;
+    color: #fff;
+    width: max-content;
+    text-align: center;
+    height: 1.7vw;
+    max-width: 70%;
+    text-overflow: ellipsis;
+}
